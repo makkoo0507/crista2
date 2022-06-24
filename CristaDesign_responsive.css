@@ -1,0 +1,42 @@
+@media(max-width:770px) {
+    .header-wrapper {
+        width: 90%;
+    }
+
+    .burger-icon {
+        display: flex;
+        visibility: visible;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .top-title {
+        font-size: 30px;
+    }
+
+    .content-positioning {
+        flex-direction: column;
+    }
+
+    .text-wrapper_service {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service-img {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .report-list {
+        display: block;
+    }
+
+    .report-item {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+}
